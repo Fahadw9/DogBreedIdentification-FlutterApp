@@ -1,5 +1,14 @@
 # Dog Breed Identification App
 
+## IMPORTANT NOTE
+The plugin `tflite` uses a deprecated version of the Android embedding.
+To avoid unexpected runtime failures, or future build failures, try to see if this plugin supports the Android V2 embedding. Otherwise, consider removing it since a future release of Flutter will remove these deprecated APIs.
+If you are plugin author, take a look at the docs for migrating the plugin to the V2 embedding: https://flutter.dev/go/android-plugin-migration.
+
+This app wont function properly until tflite gets updated, which seems highly improbable as last update for tflite was around 2020.
+
+If anyone wants to take on this challenge and implement it using their own implementation of TensorFlow, feel free to fork this repo.
+
 ## Overview:
 This is a dog breed identification app that utilizes TensorFlow Lite for image classification and GetX for efficient state management and navigation. The app allows users to take or select a photo of a dog and then uses a pre-trained TensorFlow Lite model to predict the breed of the dog in the photo.
 
