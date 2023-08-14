@@ -1,19 +1,19 @@
-##Dog Breed Identification App
+# Dog Breed Identification App
 
-#Overview:
+## Overview:
 This is a dog breed identification app that utilizes TensorFlow Lite for image classification and GetX for efficient state management and navigation. The app allows users to take or select a photo of a dog and then uses a pre-trained TensorFlow Lite model to predict the breed of the dog in the photo.
 
-#Features:
+## Features:
 - Take a photo or select an existing photo from the gallery.
 - Utilize a TensorFlow Lite model for dog breed prediction.
 - Display the predicted breed along with the confidence score.
 - Efficient state management and navigation using GetX.
 
-#Requirements:
+## Requirements:
 - TensorFlow Lite: 1.1.2
 - GetX: 4.3.8
 
-#Installation:
+## Installation:
 1. Clone the repository:
    git clone https://github.com/your-username/dog-breed-identification-app.git
 
@@ -26,21 +26,21 @@ This is a dog breed identification app that utilizes TensorFlow Lite for image c
 4. Run the app:
    flutter run
 
-#Usage:
+## Usage:
 1. Open the app on your device.
 2. Take a photo or select an existing photo of a dog.
 3. Tap the "Identify Breed" button.
 4. View the predicted breed and confidence score.
 
-#TensorFlow Lite Model:
+## TensorFlow Lite Model:
 The app utilizes a pre-trained TensorFlow Lite model for dog breed identification. You can find more information about the model and how to integrate it into the app in the model/README.txt file.
 
-#GetX State Management:
+## GetX State Management:
 GetX is used for efficient state management and navigation within the app. The app's architecture is organized around controllers and services, providing a clean and maintainable codebase. For more details, refer to the GetX documentation: https://pub.dev/packages/get
 
-#Credits:
+## Credits:
 - This app was inspired by the Dog Breed Identification Challenge on Kaggle: https://www.kaggle.com/c/dog-breed-identification
 - The TensorFlow Lite model used in this app is based on the Dog Breed Classifier example: https://www.tensorflow.org/lite/models/image_classification/overview
 
-#License:
+## License:
 This project is licensed under the MIT License - see the LICENSE file for details.
